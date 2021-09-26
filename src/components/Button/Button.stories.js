@@ -52,9 +52,3 @@ export const Sizes = Template.bind({});
 Sizes.args = {
   children: "Button",
 };
-
-export const Small = Template.bind({});
-Small.args = {
-  size: "small",
-  children: "Button",
-};
