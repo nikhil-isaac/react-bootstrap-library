@@ -1,6 +1,7 @@
 {
   "name": "react-bootstrap-library",
   "version": "0.1.0",
+  "author": "Nikhil Isaac Manohar",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
