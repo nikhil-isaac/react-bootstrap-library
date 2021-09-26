@@ -2,6 +2,8 @@ import React from "react";
 
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
+// import stackalt from "../assets/stackalt";
+
 export default {
   title: "Components/Navbar",
   component: Navbar,
@@ -37,13 +39,13 @@ export const Brand = () => (
   <>
     <Navbar bg="light">
       <Container>
-        <Navbar.Brand href="#home">Brand link</Navbar.Brand>
+        <Navbar.Brand href="#home">Brand Name</Navbar.Brand>
       </Container>
     </Navbar>
     <br />
     <Navbar bg="light">
       <Container>
-        <Navbar.Brand>Brand text</Navbar.Brand>
+        <Navbar.Brand>Brand Name</Navbar.Brand>
       </Container>
     </Navbar>
     <br />
@@ -51,7 +53,7 @@ export const Brand = () => (
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="/logo.svg"
+            src="../assets/stackalt.svg"
             width="30"
             height="30"
             className="d-inline-block align-top"
@@ -66,12 +68,12 @@ export const Brand = () => (
         <Navbar.Brand href="#home">
           <img
             alt=""
-            src="/logo.svg"
+            src="../assets/stackalt.svg"
             width="30"
             height="30"
             className="d-inline-block align-top"
           />{" "}
-          React Bootstrap
+          Brand Name
         </Navbar.Brand>
       </Container>
     </Navbar>
