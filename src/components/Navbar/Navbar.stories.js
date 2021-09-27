@@ -1,9 +1,7 @@
 import React from "react";
 
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-
-// import stackalt from "../assets/stackalt";
-
+import { BsFillBootstrapFill } from "react-icons/bs";
 export default {
   title: "Components/Navbar",
   component: Navbar,
@@ -39,40 +37,34 @@ export const Brand = () => (
   <>
     <Navbar bg="light">
       <Container>
-        <Navbar.Brand href="#home">Brand Name</Navbar.Brand>
+        <Navbar.Brand href="#home" className="d-flex align-items-center">
+          <BsFillBootstrapFill className="d-inline-block align-center me-2" />
+          Brand Name
+        </Navbar.Brand>
       </Container>
     </Navbar>
     <br />
     <Navbar bg="light">
       <Container>
-        <Navbar.Brand>Brand Name</Navbar.Brand>
-      </Container>
-    </Navbar>
-    <br />
-    <Navbar bg="dark">
-      <Container>
-        <Navbar.Brand href="#home">
-          <img
-            src="../assets/stackalt.svg"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-            alt=""
-          />
+        <Navbar.Brand className="d-flex align-items-center">
+          <BsFillBootstrapFill className="d-inline-block align-top me-2" />
+          Brand Name
         </Navbar.Brand>
       </Container>
     </Navbar>
     <br />
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">
-          <img
-            alt=""
-            src="../assets/stackalt.svg"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />{" "}
+        <Navbar.Brand href="#home" className="d-flex align-items-center">
+          <BsFillBootstrapFill className="d-inline-block align-top me-2" />
+        </Navbar.Brand>
+      </Container>
+    </Navbar>
+    <br />
+    <Navbar bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home" className="d-flex align-items-center">
+          <BsFillBootstrapFill className="d-inline-block align-top me-2" />
           Brand Name
         </Navbar.Brand>
       </Container>
