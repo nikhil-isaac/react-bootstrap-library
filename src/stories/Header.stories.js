@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { BsFillBootstrapFill } from "react-icons/bs";
 
 export default {
   title: "Examples/Header",
@@ -11,14 +12,8 @@ export const Example = () => (
   <Navbar bg="light" expand="lg">
     <Container fluid>
       <Navbar.Brand href="#home" className="d-flex align-items-center">
-        <img
-          src="/nikhil-black-icon.png"
-          width="30"
-          height="30"
-          className="d-inline-block align-top me-2"
-          alt=""
-        />
-        <span className="fs-4">Nikhil Manohar</span>
+        <BsFillBootstrapFill className="d-inline-block align-center me-2" />
+        <span className="fs-4">Brand Name</span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -48,14 +43,8 @@ export const Brand = () => (
     <Navbar bg="light">
       <Container>
         <Navbar.Brand href="#home">
-          <img
-            src="./nikhil-black-icon.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top me-2"
-            alt=""
-          />
-          Nikhil Manohar
+          <BsFillBootstrapFill className="d-inline-block align-center me-2" />
+          Brand Name
         </Navbar.Brand>
       </Container>
     </Navbar>
@@ -63,14 +52,8 @@ export const Brand = () => (
     <Navbar bg="light">
       <Container>
         <Navbar.Brand>
-          <img
-            src="./nikhil-black-icon.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top me-2"
-            alt=""
-          />
-          Nikhil Manohar
+          <BsFillBootstrapFill className="d-inline-block align-center me-2" />
+          Brand Name
         </Navbar.Brand>
       </Container>
     </Navbar>
@@ -78,13 +61,7 @@ export const Brand = () => (
     <Navbar bg="dark">
       <Container>
         <Navbar.Brand href="#home">
-          <img
-            src="./nikhil-icon.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-            alt=""
-          />
+          <BsFillBootstrapFill className="d-inline-block align-center me-2" />
         </Navbar.Brand>
       </Container>
     </Navbar>
@@ -92,14 +69,8 @@ export const Brand = () => (
     <Navbar bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#home">
-          <img
-            alt=""
-            src="./nikhil-icon.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />{" "}
-          Nikhil Manohar
+          <BsFillBootstrapFill className="d-inline-block align-center me-2" />
+          Brand Name
         </Navbar.Brand>
       </Container>
     </Navbar>
