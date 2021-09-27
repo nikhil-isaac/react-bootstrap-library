@@ -1,6 +1,9 @@
 import React from "react";
 
 import { Card, Button, ListGroup, ListGroupItem } from "react-bootstrap";
+import img1 from "../assets/1.jpeg";
+import img2 from "../assets/2.jpeg";
+import img3 from "../assets/3.jpeg";
 
 export default {
   title: "Components/Card",
@@ -9,7 +12,7 @@ export default {
 
 export const Example = () => (
   <Card style={{ width: "18rem" }}>
-    <Card.Img variant="top" src="holder.js/100px180" />
+    <Card.Img variant="top" src={img3} />
     <Card.Body>
       <Card.Title>Card Title</Card.Title>
       <Card.Text>
@@ -49,7 +52,7 @@ export const ListGroups = () => (
 
 export const KitchenSink = () => (
   <Card style={{ width: "18rem" }}>
-    <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+    <Card.Img variant="top" src={img1} />
     <Card.Body>
       <Card.Title>Card Title</Card.Title>
       <Card.Text>
@@ -117,7 +120,7 @@ export const HeaderBodyFooter = () => (
 export const ImageCaps = () => (
   <>
     <Card>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={img1} />
       <Card.Body>
         <Card.Text>
           Some quick example text to build on the card title and make up the
@@ -133,14 +136,14 @@ export const ImageCaps = () => (
           bulk of the card's content.
         </Card.Text>
       </Card.Body>
-      <Card.Img variant="bottom" src="holder.js/100px180" />
+      <Card.Img variant="bottom" src={img3} />
     </Card>
   </>
 );
 
 export const ImageOverlays = () => (
   <Card className="bg-dark text-white">
-    <Card.Img src="holder.js/100px270" alt="Card image" />
+    <Card.Img src={img2} alt="Card image" />
     <Card.ImgOverlay>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
