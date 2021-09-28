@@ -1,6 +1,6 @@
 # React Bootstrap Component Library
 
-This component library is made using [React Bootstrap](https://react-bootstrap.github.io) and [storybook](https://storybook.js.org/).
+This component library is made using [React Bootstrap](https://react-bootstrap.github.io), [Bootstrap](https://getbootstrap.com/) and [Storybook](https://storybook.js.org/).
 
 ## Getting started
 
