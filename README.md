@@ -4,6 +4,10 @@ This component library is made using [React Bootstrap](https://react-bootstrap.g
 
 ## Getting started
 
+To install all pre-requisites:
+
+### `npm install`
+
 To run the application in development mode, you can run:
 
 ### `npm run start`
