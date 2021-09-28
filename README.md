@@ -12,4 +12,8 @@ Open [http://localhost:3000](http://localhost:3000) in the browser.
 
 ### `npm run build`
 
-To build the application to the `build` folder for production.\
+To build the application to the `build` folder for production.
+
+### `npm run storybook`
+
+To run storybook
